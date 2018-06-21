@@ -1,7 +1,18 @@
 # Linux-Server-Project
 This is a project for Linux Server Configuration in Udacity FSND. This a webserver simulation and testing using ubuntu 16.04LTS running apache2 hosted by AWS.
 
-## HTML files repositories
+### Building from the ground up
+1. Create OS only instance in AWS using Linux Ubuntu.
+2. Run `sudo apt-get upgrade` to update system.
+3. Setup firewall using UFW and AWS GUI.
+4. Add additional users and ssh keys if needed.
+5. Download html files in Github repositories and store in /var/www/html.
+6. Setup and configure .conf files and WSGI to point to desired paths and directories.
+
+### HTML files repositories
+https://github.com/Bonid02/Neighborhood-Map
+https://github.com/Bonid02/project-catalog
+
 
 ## Webserver Details
 Public IP: 52.77.238.29
@@ -21,3 +32,4 @@ SSH Port: 2200
 1. Google Maps API
 2. Data.sg.gov Weather forecast API
 3. Foursquare venue API
+
